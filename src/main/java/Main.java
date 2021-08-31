@@ -9,7 +9,7 @@ Viết in hoa toàn bộ chữ đầu của các từ trong chuỗi đó (VD: Yo
 Chuyển ký tự đầu tiên của chuỗi hoặc ký tự đầu tiên của từ sau dấu chấm là viết in hoa, các chữ con lại viết thường
 * (VD: You only live once. But if you do it right. Once is enough)*/
 public class Main {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập 1 chuỗi: ");
@@ -52,8 +52,7 @@ public class Main {
             }
             isPreSpace = (arr[i] == ' ');
         }
-        String result = String.valueOf(arr);
-        return result;
+        return String.valueOf(arr);
     }
     //Chuyển ký tự đầu tiên của chuỗi hoặc ký tự đầu tiên của từ sau dấu chấm là viết in hoa, các chữ con lại viết thường
     //* (VD: You only live once. But if you do it right. Once is enough)
@@ -71,8 +70,7 @@ public class Main {
                 isPreDot = (arr[i] == '.');
             }
         }
-        String result = String.valueOf(arr);
-        return result;
+        return String.valueOf(arr);
     }
 }
 
